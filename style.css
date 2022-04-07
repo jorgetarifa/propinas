@@ -29,28 +29,56 @@ body {
 .calcular {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
+    margin-left: 10vw;
+    text-align: center;
     height: 83vh;
-    justify-content: center;
+    justify-content: center !important;
     margin: 0 1vh 1vh 1vh;
     border: .4rem solid #fff;
 }
 
-.calcular button {
-    
-    background-color: rgb(245, 75, 75);
+.span-cuenta {
+    display: block;
+    justify-content: center;
 }
+
+
+
+.input-cuenta{
+    width: 20vw;
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.input-propina{
+    width: 20vw;
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
 
 .calcular h3 {
     color: #fff;
     font-size: 1.5rem;
 }
-
-.resumen {
-    border: .3rem solid #fff;
-    margin: 1vh 1vh 0 1vh;
     
+.btn-calcular {
+    width: 16vw;
+    height: 1.8rem;
+    border-radius: 10%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rgb(245, 75, 75);
+    margin-top: 2vh;
 }
+
 
 .resumen {
     display: grid;
@@ -58,13 +86,15 @@ body {
     margin-bottom: 1vh;
     padding:2vh;
     align-content: center;
-   
+    border: .3rem solid #fff;
+    margin: 1vh 1vh 0 1vh;
     font-weight: bold;
     font-size: 2rem;
     border-radius: 3vw;
     width: 80vw;
     height: 35vh;
     background-color: rgb(230, 205, 205);
+    margin-left: 10%;
 }
 
 .resumen h1{

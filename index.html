@@ -11,30 +11,26 @@
     <div class="container">
         <span class="title"> Calculadora de Propinas </span>
 
-        <form class="calcular"  onclick="calcular()" >
-            <h3> Total de la cuenta </h3>
+        <form class="calcular"   >
+         <span class="span-cuenta">
+             <h3> Total de la cuenta </h3>
             <input class="input-cuenta" type="number" value="">
             <br />
             <h3> Porcentaje de la propina </h3>
-            <input class="input-propina" type="number" value="">
-       
+            <input class="input-propina" type="number" value="">   
+            <br />
         
-         <button class="btn-calcular"> Calcular </button>
-        
-         <br />
-
-         <span class="resumen">
-            <h1>Resumen</h1>
-            <h3>
-                Total de la cuenta
-            </h3>
-            <h3>
-                Propina
-            </h3>
-            <h3>
-                Total a pagar 
-            </h3>
+         <button class="btn-calcular"> Calcular </button>   
+        </span>        
+         
+        <span class="resumen">
+            <h1 class="title-resumen"> </h1>
+            <h3 class="total-cuenta"></h3>
+            <h3 class="propina"></h3>
+            <h3 class="total-pagar"></h3>            
          </span>    
+     
+        <span>
         </form>        
     </div>
     <script src="./scripts.js" ></script>
